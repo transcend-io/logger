@@ -3,7 +3,7 @@
   "name": "@transcend-io/logger",
   "description": "Transcend browser logger",
   "version": "1.0.0",
-  "license": "UNLICENSED",
+  "license": "MIT",
   "private": true,
   "main": "src/index.ts",
   "files": [
