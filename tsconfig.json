@@ -37,7 +37,7 @@
     
     "outDir": "./build/@transcend-io/logger",
     "rootDir": "src",
-    "tsBuildInfoFile": "../../build/@transcend-io/logger.tsbuildinfo",
+    "tsBuildInfoFile": "./build/@transcend-io/logger.tsbuildinfo",
     "jsxFactory": "h",
     "jsxFragmentFactory": "Fragment",
 
