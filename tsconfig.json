@@ -35,7 +35,7 @@
     "importHelpers": false,
     "noEmitHelpers": true,
     
-    "outDir": "../../build/@transcend-io/logger",
+    "outDir": "./build/@transcend-io/logger",
     "rootDir": "src",
     "tsBuildInfoFile": "../../build/@transcend-io/logger.tsbuildinfo",
     "jsxFactory": "h",
