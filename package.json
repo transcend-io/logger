@@ -4,7 +4,7 @@
   "description": "Transcend browser logger",
   "version": "1.0.0",
   "license": "MIT",
-  "private": true,
+  "private": false,
   "main": "src/index.ts",
   "files": [
     "build/**/*",
