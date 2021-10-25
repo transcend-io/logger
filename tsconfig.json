@@ -35,9 +35,9 @@
     "importHelpers": false,
     "noEmitHelpers": true,
     
-    "outDir": "../../build/@transcend-io/logger",
+    "outDir": "./build/@transcend-io/logger",
     "rootDir": "src",
-    "tsBuildInfoFile": "../../build/@transcend-io/logger.tsbuildinfo",
+    "tsBuildInfoFile": "./build/@transcend-io/logger.tsbuildinfo",
 
     "include": ["src", "src/**/*.json"],
     "exclude": ["node_modules", "build"],
