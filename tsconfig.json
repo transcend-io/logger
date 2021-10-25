@@ -15,7 +15,6 @@
 
     /* Strict Type-Checking Options */
     "strict": true,
-    "skipLibCheck": true, // TODO: https://transcend.height.app/T-405 - remove this
 
     /* Additional Checks */
     "noUnusedLocals": true,
