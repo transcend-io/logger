@@ -24,7 +24,7 @@
     /* Module Resolution Options */
     "moduleResolution": "node",
     "baseUrl": ".",
-    "types": ["node"],
+    "types": ["node", "mocha"],
     "typeRoots": ["@types", "node_modules/@types"],
     "esModuleInterop": true,
     "resolveJsonModule": true,
@@ -33,10 +33,55 @@
     "downlevelIteration": false,
     "importHelpers": false,
     "noEmitHelpers": true,
-    
-    "outDir": "./build/@transcend-io/logger",
+
+    "outDir": "build",
     "rootDir": "src",
-    "tsBuildInfoFile": "./build/@transcend-io/logger.tsbuildinfo",
+    "tsBuildInfoFile": "./build/tsbuildinfo",
+
+    "include": ["src", "src/**/*.json"],
+    "exclude": ["node_modules", "build"],
+    "references": []
+  }
+}
+{
+  "compilerOptions": {
+    /* Basic Options */
+    "incremental": true,
+    "module": "commonjs",
+    "target": "esnext",
+    "lib": ["esnext", "es2020", "dom", "dom.iterable"],
+    "allowJs": false,
+    "checkJs": false, // speeds up webpack and tsc
+    "jsx": "react",
+    "declaration": true,
+    "composite": true,
+    "declarationMap": true,
+    "sourceMap": true,
+
+    /* Strict Type-Checking Options */
+    "strict": true,
+
+    /* Additional Checks */
+    "noUnusedLocals": true,
+    "noImplicitReturns": true,
+    "noFallthroughCasesInSwitch": true,
+
+    /* Module Resolution Options */
+    "moduleResolution": "node",
+    "baseUrl": ".",
+    "types": ["node", "mocha"],
+    "typeRoots": ["@types", "node_modules/@types"],
+    "esModuleInterop": true,
+    "resolveJsonModule": true,
+    "forceConsistentCasingInFileNames": true,
+
+    "downlevelIteration": false,
+    "importHelpers": false,
+    "noEmitHelpers": true,
+
+    "outDir": "build",
+    "rootDir": "src",
+    "tsBuildInfoFile": "./build/tsbuildinfo",
 
     "include": ["src", "src/**/*.json"],
     "exclude": ["node_modules", "build"],

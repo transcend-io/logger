@@ -1,1 +1,1 @@
-ignores: ["@types/node"]
+ignores: ["@types/node", "@yarnpkg/sdks", "depcheck", "prettier", "@yarnpkg/pnpify"]
