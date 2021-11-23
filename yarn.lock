@@ -299,10 +299,23 @@ __metadata:
   languageName: node
   linkType: hard
 
+"@transcend-io/airgap.js-types@npm:^6.5.1":
+  version: 6.5.1
+  resolution: "@transcend-io/airgap.js-types@npm:6.5.1"
+  dependencies:
+    "@transcend-io/type-utils": ^1.0.4
+    fp-ts: ^2.11.4
+    io-ts: ^2.2.16
+    tslib: ^2.3.0
+  checksum: 7f6775205fca41e8bbd6d39c25c3263852f108a019c7ab91d01a3dc47407d079c470b853e4bdf2889b92433d8d11568f1c5aeb672a4ff35360dfd2c6c6a2985e
+  languageName: node
+  linkType: hard
+
 "@transcend-io/logger@workspace:.":
   version: 0.0.0-use.local
   resolution: "@transcend-io/logger@workspace:."
   dependencies:
+    "@transcend-io/airgap.js-types": ^6.5.1
     "@types/chai": ^4
     "@types/mocha": ^9.0.0
     "@typescript-eslint/eslint-plugin": ^5.1.0
@@ -323,6 +336,16 @@ __metadata:
     typescript: ^4.4.4
   languageName: unknown
   linkType: soft
+
+"@transcend-io/type-utils@npm:^1.0.4":
+  version: 1.0.4
+  resolution: "@transcend-io/type-utils@npm:1.0.4"
+  dependencies:
+    fp-ts: ^2.11.5
+    io-ts: ^2.2.16
+  checksum: 2e73b1167912930c99487ee24f971a997628f0264c692489f7d1de8d21d4e155324f7af747fb8023758908a1582ce9bfe7e382015ad7791db561e8b7dfbd4ecc
+  languageName: node
+  linkType: hard
 
 "@tsconfig/node10@npm:^1.0.7":
   version: 1.0.8
@@ -2144,6 +2167,13 @@ __metadata:
   languageName: node
   linkType: hard
 
+"fp-ts@npm:^2.11.4, fp-ts@npm:^2.11.5":
+  version: 2.11.5
+  resolution: "fp-ts@npm:2.11.5"
+  checksum: 68a4884527abca782a2f664b13152cd797b92b6042538905af95fa0e9da2e884bc5b05bdfcfbb02fdabfe8536ae6a62a24159696545d8a263413e4c007326c4a
+  languageName: node
+  linkType: hard
+
 "fs-minipass@npm:^2.0.0":
   version: 2.1.0
   resolution: "fs-minipass@npm:2.1.0"
@@ -2565,6 +2595,15 @@ __metadata:
   dependencies:
     loose-envify: ^1.0.0
   checksum: cc3182d793aad82a8d1f0af697b462939cb46066ec48bbf1707c150ad5fad6406137e91a262022c269702e01621f35ef60269f6c0d7fd178487959809acdfb14
+  languageName: node
+  linkType: hard
+
+"io-ts@npm:^2.2.16":
+  version: 2.2.16
+  resolution: "io-ts@npm:2.2.16"
+  peerDependencies:
+    fp-ts: ^2.5.0
+  checksum: 1b5855682e413cc92cfb5c51d0bdb24c99e407ab4e67821a53078f5d8dedbc387840c5b240cb19dd5d542bbdd2e2317ece17674a674f3de561ca0f00ae765bba
   languageName: node
   linkType: hard
 
@@ -4388,6 +4427,13 @@ __metadata:
   version: 1.14.1
   resolution: "tslib@npm:1.14.1"
   checksum: dbe628ef87f66691d5d2959b3e41b9ca0045c3ee3c7c7b906cc1e328b39f199bb1ad9e671c39025bd56122ac57dfbf7385a94843b1cc07c60a4db74795829acd
+  languageName: node
+  linkType: hard
+
+"tslib@npm:^2.3.0":
+  version: 2.3.1
+  resolution: "tslib@npm:2.3.1"
+  checksum: de17a98d4614481f7fcb5cd53ffc1aaf8654313be0291e1bfaee4b4bb31a20494b7d218ff2e15017883e8ea9626599b3b0e0229c18383ba9dce89da2adf15cb9
   languageName: node
   linkType: hard
 

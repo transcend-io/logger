@@ -23,7 +23,7 @@
     "prepublish": "yarn build"
   },
   "devDependencies": {
-    "@transcend-io/airgap.js-types": "^1.0.0",
+    "@transcend-io/airgap.js-types": "^6.5.1",
     "@types/chai": "^4",
     "@types/mocha": "^9.0.0",
     "@typescript-eslint/eslint-plugin": "^5.1.0",
