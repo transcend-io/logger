@@ -20,10 +20,10 @@
     "build": "yarn pnpify tsc --build",
     "clean": "yarn pnpify tsc --build --clean",
     "lint": "yarn pnpify eslint src --ext .ts",
-    "prepublish": "yarn build",
-    "test": "yarn pnpify mocha './src/**/*.test.ts'"
+    "prepublish": "yarn build"
   },
   "devDependencies": {
+    "@transcend-io/airgap.js-types": "^1.0.0",
     "@types/chai": "^4",
     "@types/mocha": "^9.0.0",
     "@typescript-eslint/eslint-plugin": "^5.1.0",
