@@ -7,7 +7,6 @@
     "lib": ["esnext", "es2020", "dom", "dom.iterable"],
     "allowJs": false,
     "checkJs": false, // speeds up webpack and tsc
-    "jsx": "react",
     "declaration": true,
     "composite": true,
     "declarationMap": true,
