@@ -23,7 +23,7 @@
     /* Module Resolution Options */
     "moduleResolution": "node",
     "baseUrl": ".",
-    "types": ["node", "mocha"],
+    "types": ["node"],
     "typeRoots": ["@types", "node_modules/@types"],
     "esModuleInterop": true,
     "resolveJsonModule": true,
