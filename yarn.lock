@@ -316,6 +316,7 @@ __metadata:
   resolution: "@transcend-io/logger@workspace:."
   dependencies:
     "@transcend-io/airgap.js-types": ^6.5.1
+    "@types/node": ^16.11.12
     "@typescript-eslint/eslint-plugin": ^5.1.0
     "@typescript-eslint/parser": ^5.1.0
     "@yarnpkg/pnpify": ^3.1.0-rc.2
@@ -438,6 +439,13 @@ __metadata:
   version: 13.13.52
   resolution: "@types/node@npm:13.13.52"
   checksum: 8f1afff497ebeba209e2dc340d823284e087a47632afe99a7daa30eaff80893e520f222ad400cd1f2d3b8288e93cf3eaded52a8e64eaefb8aacfe6c35de98f42
+  languageName: node
+  linkType: hard
+
+"@types/node@npm:^16.11.12":
+  version: 16.11.12
+  resolution: "@types/node@npm:16.11.12"
+  checksum: a3feb346d61a56f5a137c29bb8c63cfa3cc02e184b9dffdc18ef1528dcce55596e570575215a2e39e6ce69343eeb2a5ba71c271938f1dc8db4cc393902855412
   languageName: node
   linkType: hard
 
