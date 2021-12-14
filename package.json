@@ -2,7 +2,7 @@
   "author": "Transcend Inc.",
   "name": "@transcend-io/logger",
   "description": "Transcend browser logger",
-  "version": "1.0.2",
+  "version": "1.0.3",
   "homepage": "https://github.com/transcend-io/logger",
   "repository": {
     "type": "git",
