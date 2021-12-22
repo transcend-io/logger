@@ -2,16 +2,16 @@
   "author": "Transcend Inc.",
   "name": "@transcend-io/logger",
   "description": "Transcend browser logger",
-  "version": "1.0.4",
+  "version": "1.0.7",
   "homepage": "https://github.com/transcend-io/logger",
   "repository": {
     "type": "git",
     "url": "https://github.com/transcend-io/logger.git"
   },
   "license": "MIT",
-  "main": "build/index",
+  "main": "src/index",
   "files": [
-    "build/**/*",
+    "src/**/*",
     "package.json"
   ],
   "scripts": {
