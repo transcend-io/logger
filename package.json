@@ -2,7 +2,7 @@
   "author": "Transcend Inc.",
   "name": "@transcend-io/logger",
   "description": "Transcend browser logger",
-  "version": "1.0.3",
+  "version": "1.0.4",
   "homepage": "https://github.com/transcend-io/logger",
   "repository": {
     "type": "git",
@@ -23,7 +23,7 @@
     "prepublish": "yarn build"
   },
   "devDependencies": {
-    "@transcend-io/airgap.js-types": "^6.5.1",
+    "@transcend-io/airgap.js-types": "^6.8.3",
     "@types/node": "^16.11.12",
     "@typescript-eslint/eslint-plugin": "^5.1.0",
     "@typescript-eslint/parser": "^5.1.0",
