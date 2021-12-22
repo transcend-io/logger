@@ -299,15 +299,15 @@ __metadata:
   languageName: node
   linkType: hard
 
-"@transcend-io/airgap.js-types@npm:^6.5.1":
-  version: 6.5.1
-  resolution: "@transcend-io/airgap.js-types@npm:6.5.1"
+"@transcend-io/airgap.js-types@npm:^6.8.3":
+  version: 6.8.3
+  resolution: "@transcend-io/airgap.js-types@npm:6.8.3"
   dependencies:
     "@transcend-io/type-utils": ^1.0.4
     fp-ts: ^2.11.4
     io-ts: ^2.2.16
     tslib: ^2.3.0
-  checksum: 7f6775205fca41e8bbd6d39c25c3263852f108a019c7ab91d01a3dc47407d079c470b853e4bdf2889b92433d8d11568f1c5aeb672a4ff35360dfd2c6c6a2985e
+  checksum: 156908cbf78185ea87233b5a4bd100cfb5981c8b0326551afa1e5883653f5c5b66c3950f69e018024980478dd2b5e869c4a775f206f0d7ef8300dce033b4c4d0
   languageName: node
   linkType: hard
 
@@ -315,7 +315,7 @@ __metadata:
   version: 0.0.0-use.local
   resolution: "@transcend-io/logger@workspace:."
   dependencies:
-    "@transcend-io/airgap.js-types": ^6.5.1
+    "@transcend-io/airgap.js-types": ^6.8.3
     "@types/node": ^16.11.12
     "@typescript-eslint/eslint-plugin": ^5.1.0
     "@typescript-eslint/parser": ^5.1.0
