@@ -36,7 +36,7 @@ function $$SETUP_STATE(hydrateRuntimeState, basePath) {
           "packageLocation": "./",
           "packageDependencies": [
             ["@transcend-io/airgap.js-types", "npm:6.8.3"],
-            ["@types/node", "npm:16.11.12"],
+            ["@types/node", "npm:16.11.19"],
             ["@typescript-eslint/eslint-plugin", "virtual:531048f75d382118262c5abb99dda910b6844409e93f06dc5eac1f573808197ea2d7bad93d4f08cc136da3147a10ee92a6ac054da835e1690fba7ccfedaf5914#npm:5.4.0"],
             ["@typescript-eslint/parser", "virtual:531048f75d382118262c5abb99dda910b6844409e93f06dc5eac1f573808197ea2d7bad93d4f08cc136da3147a10ee92a6ac054da835e1690fba7ccfedaf5914#npm:5.4.0"],
             ["@yarnpkg/pnpify", "npm:3.1.0"],
@@ -406,7 +406,7 @@ function $$SETUP_STATE(hydrateRuntimeState, basePath) {
           "packageDependencies": [
             ["@transcend-io/logger", "workspace:."],
             ["@transcend-io/airgap.js-types", "npm:6.8.3"],
-            ["@types/node", "npm:16.11.12"],
+            ["@types/node", "npm:16.11.19"],
             ["@typescript-eslint/eslint-plugin", "virtual:531048f75d382118262c5abb99dda910b6844409e93f06dc5eac1f573808197ea2d7bad93d4f08cc136da3147a10ee92a6ac054da835e1690fba7ccfedaf5914#npm:5.4.0"],
             ["@typescript-eslint/parser", "virtual:531048f75d382118262c5abb99dda910b6844409e93f06dc5eac1f573808197ea2d7bad93d4f08cc136da3147a10ee92a6ac054da835e1690fba7ccfedaf5914#npm:5.4.0"],
             ["@yarnpkg/pnpify", "npm:3.1.0"],
@@ -548,10 +548,10 @@ function $$SETUP_STATE(hydrateRuntimeState, basePath) {
           ],
           "linkType": "HARD",
         }],
-        ["npm:16.11.12", {
-          "packageLocation": "./.yarn/cache/@types-node-npm-16.11.12-0c51fb0c8d-a3feb346d6.zip/node_modules/@types/node/",
+        ["npm:16.11.19", {
+          "packageLocation": "./.yarn/cache/@types-node-npm-16.11.19-b289452f75-a9ba0cd1e6.zip/node_modules/@types/node/",
           "packageDependencies": [
-            ["@types/node", "npm:16.11.12"]
+            ["@types/node", "npm:16.11.19"]
           ],
           "linkType": "HARD",
         }],
@@ -4799,7 +4799,7 @@ function $$SETUP_STATE(hydrateRuntimeState, basePath) {
             ["@tsconfig/node12", "npm:1.0.9"],
             ["@tsconfig/node14", "npm:1.0.1"],
             ["@tsconfig/node16", "npm:1.0.2"],
-            ["@types/node", "npm:16.11.12"],
+            ["@types/node", "npm:16.11.19"],
             ["@types/swc__core", null],
             ["@types/swc__wasm", null],
             ["@types/typescript", null],

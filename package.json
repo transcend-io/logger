@@ -22,11 +22,9 @@
     "lint": "yarn pnpify eslint src --ext .ts",
     "prepublish": "yarn build"
   },
-  "dependencies": {
-    "@transcend-io/airgap.js-types": "^6.8.3"
-  },
   "devDependencies": {
-    "@types/node": "^16.11.12",
+    "@transcend-io/airgap.js-types": "^6.8.3",
+    "@types/node": "^16.11.9",
     "@typescript-eslint/eslint-plugin": "^5.1.0",
     "@typescript-eslint/parser": "^5.1.0",
     "@yarnpkg/pnpify": "^3.1.0-rc.2",
