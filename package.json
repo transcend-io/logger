@@ -22,8 +22,10 @@
     "lint": "yarn pnpify eslint src --ext .ts",
     "prepublish": "yarn build"
   },
+  "dependencies": {
+    "@transcend-io/airgap.js-types": "^6.8.3"
+  },
   "devDependencies": {
-    "@transcend-io/airgap.js-types": "^6.8.3",
     "@types/node": "^16.11.12",
     "@typescript-eslint/eslint-plugin": "^5.1.0",
     "@typescript-eslint/parser": "^5.1.0",
@@ -38,7 +40,7 @@
     "eslint-plugin-jsdoc": "^36.1.1",
     "prettier": "^2.4.1",
     "ts-node": "^10.4.0",
-    "typescript": "^4.4.4"
+    "typescript": "^4.5.4"
   },
-  "packageManager": "yarn@sources"
+  "packageManager": "yarn@3.1.1"
 }
