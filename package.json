@@ -24,7 +24,7 @@
   },
   "devDependencies": {
     "@transcend-io/airgap.js-types": "^6.8.3",
-    "@types/node": "^16.11.9",
+    "@types/node": "^17.0.8",
     "@typescript-eslint/eslint-plugin": "^5.1.0",
     "@typescript-eslint/parser": "^5.1.0",
     "@yarnpkg/pnpify": "^3.1.0-rc.2",
