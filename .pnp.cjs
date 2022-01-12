@@ -35,7 +35,7 @@ function $$SETUP_STATE(hydrateRuntimeState, basePath) {
         [null, {
           "packageLocation": "./",
           "packageDependencies": [
-            ["@transcend-io/airgap.js-types", "npm:6.8.3"],
+            ["@transcend-io/airgap.js-types", "npm:6.8.4"],
             ["@types/node", "npm:17.0.8"],
             ["@typescript-eslint/eslint-plugin", "virtual:531048f75d382118262c5abb99dda910b6844409e93f06dc5eac1f573808197ea2d7bad93d4f08cc136da3147a10ee92a6ac054da835e1690fba7ccfedaf5914#npm:5.4.0"],
             ["@typescript-eslint/parser", "virtual:531048f75d382118262c5abb99dda910b6844409e93f06dc5eac1f573808197ea2d7bad93d4f08cc136da3147a10ee92a6ac054da835e1690fba7ccfedaf5914#npm:5.4.0"],
@@ -388,10 +388,10 @@ function $$SETUP_STATE(hydrateRuntimeState, basePath) {
         }]
       ]],
       ["@transcend-io/airgap.js-types", [
-        ["npm:6.8.3", {
-          "packageLocation": "./.yarn/cache/@transcend-io-airgap.js-types-npm-6.8.3-602a0598dd-156908cbf7.zip/node_modules/@transcend-io/airgap.js-types/",
+        ["npm:6.8.4", {
+          "packageLocation": "./.yarn/cache/@transcend-io-airgap.js-types-npm-6.8.4-62ccd7ff65-dfe8d1e286.zip/node_modules/@transcend-io/airgap.js-types/",
           "packageDependencies": [
-            ["@transcend-io/airgap.js-types", "npm:6.8.3"],
+            ["@transcend-io/airgap.js-types", "npm:6.8.4"],
             ["@transcend-io/type-utils", "npm:1.0.4"],
             ["fp-ts", "npm:2.11.5"],
             ["io-ts", "virtual:208c8e7303b6148b6264adda9c15f308ac94cb17b8f0c6fb16932f812f68e63e068e6ea9a6d50af4fa4a7bd7cd4189715d43307586ca407c0ed150943f25d247#npm:2.2.16"],
@@ -405,7 +405,7 @@ function $$SETUP_STATE(hydrateRuntimeState, basePath) {
           "packageLocation": "./",
           "packageDependencies": [
             ["@transcend-io/logger", "workspace:."],
-            ["@transcend-io/airgap.js-types", "npm:6.8.3"],
+            ["@transcend-io/airgap.js-types", "npm:6.8.4"],
             ["@types/node", "npm:17.0.8"],
             ["@typescript-eslint/eslint-plugin", "virtual:531048f75d382118262c5abb99dda910b6844409e93f06dc5eac1f573808197ea2d7bad93d4f08cc136da3147a10ee92a6ac054da835e1690fba7ccfedaf5914#npm:5.4.0"],
             ["@typescript-eslint/parser", "virtual:531048f75d382118262c5abb99dda910b6844409e93f06dc5eac1f573808197ea2d7bad93d4f08cc136da3147a10ee92a6ac054da835e1690fba7ccfedaf5914#npm:5.4.0"],
