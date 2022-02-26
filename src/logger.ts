@@ -15,7 +15,7 @@ export const createLogger = (
   /** Log tag */
   logTag = '',
   /** Enabled log levels. If undefined, all log levels are enabled. */
-  enabledLevels?: Set<LogLevel>,
+  enabledLevels: Set<LogLevel> | undefined = undefined,
   /** Console API interface */
   consoleAPI = typeof console !== 'undefined' && console,
 ): LoggerType => {
@@ -42,7 +42,7 @@ export const createLogger = (
   /**
    * Console log emit
    */
-  type ConsoleLogEmitter = (...args: any) => void;
+  type ConsoleLogEmitter = (...args: any) => void; // eslint-disable-line @typescript-eslint/no-explicit-any
 
   const log = (
     emitter: ConsoleLogEmitter,
@@ -113,17 +113,18 @@ export const createLogger = (
       !process.env.DEBUG_MODE
     ) {
       // eslint-disable-next-line @typescript-eslint/no-empty-function
-      const noOp = (() => {}) as any;
+      const noOp = (() => {}) as any; // eslint-disable-line @typescript-eslint/no-explicit-any
       noOp.styled = noOp;
       return noOp;
     }
-    const emitter = (consoleAPI as any)[
+    const emitter = (consoleAPI as any)[ // eslint-disable-line @typescript-eslint/no-explicit-any
       (remapForConsole.has(type)
         ? remapForConsole.get(type)
         : type) as ConsoleSafeLogLevel
     ] as ConsoleLogEmitter;
     const tagStyles: string[] = [tagStyle];
     const messageStyles: string[] = [];
+    // eslint-disable-next-line @typescript-eslint/no-explicit-any
     const emit = (...entries: any[]): void => {
       log(
         emitter,
@@ -140,6 +141,7 @@ export const createLogger = (
         })) as LogEntry[]),
       );
     };
+    // eslint-disable-next-line @typescript-eslint/no-explicit-any
     emit.styled = (styles?: null | string | string[], ...entries: any[]) => {
       const [firstEntry] = entries;
       if (
