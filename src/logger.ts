@@ -76,7 +76,7 @@ export const createLogger = (
 
   const LOG_TAG_STYLE =
     'font-size:larger;font-weight:bold;border-radius:0.25em;padding:0.08em 0.25em;';
-  const LOG_TAG_STYLE_LOG = `${LOG_TAG_STYLE};color:navy;background-color:#0088ff;`;
+  const LOG_TAG_STYLE_LOG = `${LOG_TAG_STYLE};color:navy;background-color:#78acff;`;
   const LOG_TAG_STYLE_DEBUG = `${LOG_TAG_STYLE};color:#2F4F4F;background-color:darkgray`;
   const LOG_TAG_STYLE_WARN = `${LOG_TAG_STYLE};color:amber;background-color:#6e3e00`;
   const LOG_TAG_STYLE_ERROR = `${LOG_TAG_STYLE};color:#800000;background-color:#ff4500`;
@@ -110,8 +110,7 @@ export const createLogger = (
     if (
       // only gate log levels if enabledLevels is defined
       enabledLevels &&
-      !enabledLevels.has(logLevel) &&
-      !process.env.DEBUG_MODE
+      !enabledLevels.has(logLevel)
     ) {
       // eslint-disable-next-line @typescript-eslint/no-empty-function
       const noOp = (() => {}) as any; // eslint-disable-line @typescript-eslint/no-explicit-any

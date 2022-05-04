@@ -33,7 +33,7 @@ function $$SETUP_STATE(hydrateRuntimeState, basePath) {
         [null, {\
           "packageLocation": "./",\
           "packageDependencies": [\
-            ["@transcend-io/airgap.js-types", "npm:6.8.17"],\
+            ["@transcend-io/airgap.js-types", "npm:7.0.0"],\
             ["@types/node", "npm:17.0.21"],\
             ["@typescript-eslint/eslint-plugin", "virtual:531048f75d382118262c5abb99dda910b6844409e93f06dc5eac1f573808197ea2d7bad93d4f08cc136da3147a10ee92a6ac054da835e1690fba7ccfedaf5914#npm:5.12.1"],\
             ["@typescript-eslint/parser", "virtual:531048f75d382118262c5abb99dda910b6844409e93f06dc5eac1f573808197ea2d7bad93d4f08cc136da3147a10ee92a6ac054da835e1690fba7ccfedaf5914#npm:5.12.1"],\
@@ -378,10 +378,10 @@ function $$SETUP_STATE(hydrateRuntimeState, basePath) {
         }]\
       ]],\
       ["@transcend-io/airgap.js-types", [\
-        ["npm:6.8.17", {\
-          "packageLocation": "./.yarn/cache/@transcend-io-airgap.js-types-npm-6.8.17-7cfad32a7d-7b1f70faf9.zip/node_modules/@transcend-io/airgap.js-types/",\
+        ["npm:7.0.0", {\
+          "packageLocation": "./.yarn/cache/@transcend-io-airgap.js-types-npm-7.0.0-87b6add9f7-6df9dd1dfd.zip/node_modules/@transcend-io/airgap.js-types/",\
           "packageDependencies": [\
-            ["@transcend-io/airgap.js-types", "npm:6.8.17"],\
+            ["@transcend-io/airgap.js-types", "npm:7.0.0"],\
             ["@transcend-io/type-utils", "npm:1.0.5"],\
             ["fp-ts", "npm:2.11.8"],\
             ["io-ts", "virtual:53d562f9656f9223c4532e7e2b6feefabcf4bfa2c0659bc8d6557c1f9633b17688cca8b3d2effb8a926da81d6d2f2353092c812bd38f1a03f5ff9a9a3e1b3408#npm:2.2.16"],\
@@ -395,7 +395,7 @@ function $$SETUP_STATE(hydrateRuntimeState, basePath) {
           "packageLocation": "./",\
           "packageDependencies": [\
             ["@transcend-io/logger", "workspace:."],\
-            ["@transcend-io/airgap.js-types", "npm:6.8.17"],\
+            ["@transcend-io/airgap.js-types", "npm:7.0.0"],\
             ["@types/node", "npm:17.0.21"],\
             ["@typescript-eslint/eslint-plugin", "virtual:531048f75d382118262c5abb99dda910b6844409e93f06dc5eac1f573808197ea2d7bad93d4f08cc136da3147a10ee92a6ac054da835e1690fba7ccfedaf5914#npm:5.12.1"],\
             ["@typescript-eslint/parser", "virtual:531048f75d382118262c5abb99dda910b6844409e93f06dc5eac1f573808197ea2d7bad93d4f08cc136da3147a10ee92a6ac054da835e1690fba7ccfedaf5914#npm:5.12.1"],\
