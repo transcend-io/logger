@@ -18,7 +18,7 @@ jobs:
     steps:
       - uses: actions/checkout@v2
       - name: Use Node.js 14.x
-        uses: actions/setup-node@v1
+        uses: actions/setup-node@v6
         with:
           node-version: 14.x
       - run: yarn pnpify depcheck
@@ -31,7 +31,7 @@ jobs:
           fetch-depth: 100 # need the history to do a changed files check below (source, origin)
       - uses: actions/setup-python@v2
       - name: Use Node.js 14.x
-        uses: actions/setup-node@v1
+        uses: actions/setup-node@v6
         with:
           node-version: 14.x
       - uses: pre-commit/action@v2.0.2
@@ -41,6 +41,10 @@ jobs:
   build-to-npm:
     if: github.ref == 'refs/heads/main'
     runs-on: ubuntu-latest
+    permissions:
+      id-token: write
+      contents: read
+      packages: write
     needs:
       - run-depcheck
       - build-and-upload-artifacts
@@ -48,15 +52,18 @@ jobs:
     steps:
       - name: Checkout
         uses: actions/checkout@v2
-      - uses: actions/setup-node@v2
+      - uses: actions/setup-node@v6
         with:
           node-version: '14.x'
-      - name: Configure NPM authentication
-        run: |
-          yarn config set npmAlwaysAuth true
-          yarn config set npmAuthToken ${{ secrets.NPM_TOKEN }}
+      # See: https://docs.npmjs.com/trusted-publishers
+      # See: https://github.com/actions/setup-node/issues/1445
+      - name: Set npm to version that supports trusted publishers
+        run: npm install -g npm@11.5.1
+        shell: bash
       - name: Publish to yarn/npm
         run: yarn npm publish
+        env:
+          NODE_AUTH_TOKEN: ""
 
   build-to-github-packages:
     if: github.ref == 'refs/heads/main'
@@ -68,7 +75,7 @@ jobs:
     steps:
       - name: Checkout
         uses: actions/checkout@v2
-      - uses: actions/setup-node@v2
+      - uses: actions/setup-node@v6
         with:
           node-version: '14.x'
       - name: Configure Github Packages authentication
