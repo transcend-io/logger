@@ -11,6 +11,7 @@ jobs:
     runs-on: ubuntu-latest
     steps:
       - uses: actions/checkout@v2
+      - run: yarn install
       - name: Build the typescript code
         run: yarn build
       - uses: actions/upload-artifact@main
@@ -26,6 +27,7 @@ jobs:
         uses: actions/setup-node@v6
         with:
           node-version: 22.x
+      - run: yarn install
       - run: yarn pnpify depcheck
 
   run-pre-commits:
