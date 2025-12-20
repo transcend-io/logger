@@ -58,10 +58,6 @@ jobs:
       - uses: actions/setup-node@v2
         with:
           node-version: '22.x'
-      - name: Configure NPM authentication
-        run: |
-          yarn config set npmAlwaysAuth true
-          yarn config set npmAuthToken ${{ secrets.NPM_TOKEN }}
       - name: Publish to yarn/npm
         run: yarn npm publish --provenance
 
@@ -77,7 +73,7 @@ jobs:
         uses: actions/checkout@v2
       - uses: actions/setup-node@v2
         with:
-          node-version: '14.x'
+          node-version: '22.x'
       - name: Configure Github Packages authentication
         run: |
           yarn config set npmAlwaysAuth true
